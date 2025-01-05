@@ -21,18 +21,21 @@ dockitems_persist:
   - name: "CotEditor"
     path: "/Applications/CotEditor.app"
     pos: 4
+  - name: "Ghostty"
+    path: "/Application/Ghostty.app"
+    pos: 5
   - name: "WezTerm"
     path: "/Applications/WezTerm.app"
-    pos: 5
+    pos: 6
   - name: "GitKraken"
     path: "/Applications/GitKraken.app/"
-    pos: 6
+    pos: 7
   - name: "Microsoft Word"
     path: "/Applications/Microsoft Word.app/"
-    pos: 7
+    pos: 8
   - name: "Microsoft Excel"
     path: "/Applications/Microsoft Excel.app/"
-    pos: 8
+    pos: 9
 # - name: "Sublime Text"
 #   path: "/Applications/Sublime Text.app/"
 #   pos: 5
@@ -91,6 +94,7 @@ homebrew_installed_packages:
   - sqlite
   - sshpass
   - stow
+  - synergy-core
   - tree-sitter
   - unibilium
   - xz
@@ -109,18 +113,31 @@ homebrew_taps: []
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - arduino-ide
+#  - autodesk-fusion # Not possible
+  - beyond-compare
+  - bitwarden
+  - coteditor
   - elgato-camera-hub
   - elgato-control-center
   - elgato-stream-deck
   - firefox
   - font-meslo-lg-nerd-font
   - ghostty
+  - gitkraken
+  - google-chrome
+  - hazel
+  - home-assistant
+  - istat-menus
   - jordanbaird-ice
+  - logi-options+
   - microsoft-auto-update
   - microsoft-office
+  - nx-studio
   - podman-desktop
   - powershell
+  - rider
   - visual-studio-code
+  - vlc
   - wezterm
 
 # See `geerlingguy.mas` role documentation for usage instructions.
